@@ -20,12 +20,12 @@ function Login() {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./login-bg.jpg")`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./login-bg.jpg")`,
       }}
       className="h-screen grid place-items-center w-full bg-cover bg-center"
     >
       <div className="p-8 rounded-lg max-w-md w-full">
-        <img className="w-14 mx-auto mb-4" src="./logo.svg" alt="Logo" />
+        <img className="w-14   mx-auto mb-2" src="./logo.svg" alt="Logo" />
         <h2 className="text-4xl text-center mb-2 font-bold text-white">
           Login
         </h2>
